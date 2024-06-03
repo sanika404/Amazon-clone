@@ -1,0 +1,71 @@
+.header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color:#232F3E;
+    z-index: 100;
+    
+}
+.headlogo {
+height: 90px;
+width: 80px;
+
+padding-bottom: 15px;
+object-fit: contain;
+margin: 0 20px;
+margin-top: 15px;
+}
+
+.searchbar{
+    padding-left: 80px;
+    display: flex;
+    flex: 1;
+
+}
+.hsearch{
+    padding: 5px;
+    height: 22px !important;
+    background-color:burlywood ;
+}
+.searching{
+    height: 12px;
+    padding: 10px;
+    border :none;
+    width: 100%;
+}
+.headeroption{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    color: aliceblue;
+}
+.lineone{
+    font-size: 15px;
+
+}
+.linetwo{
+    font-size: 18px;
+    font-weight:500;
+}
+.headernav{
+     display: flex;
+     justify-content: space-evenly;
+}
+.hcart{
+    margin: 5px;
+   
+}
+.cart{
+    display: flex;
+  color: aliceblue;
+  align-items: center;
+ 
+}
+.number{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
